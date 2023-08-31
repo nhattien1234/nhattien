@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web của tôi</title>
+    <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </head>
@@ -12,15 +12,17 @@
         /* Center the loader */
         #loader {
           position: absolute;
-          left: 50%;
-          top: 50%;
+          left: 40%;
+          top: 40%;
           z-index: 1;
-          width: 120px;
-          height: 120px;
-          margin: -76px 0 0 -76px;
           border: 16px solid #f3f3f3;
           border-radius: 50%;
-          border-top: 16px solid #3498db;
+          border-top: 16px solid blue;
+          border-right: 16px solid green;
+          border-bottom: 16px solid red;
+          border-left: 16px solid pink;
+          width: 100px;
+          height: 100px;
           -webkit-animation: spin 2s linear infinite;
           animation: spin 2s linear infinite;
         }
@@ -426,7 +428,7 @@
         var myVar;
         
         function myFunction() {
-          myVar = setTimeout(showPage, 100000);
+          myVar = setTimeout(showPage, 3000);
         }
         
         function showPage() {
