@@ -92,7 +92,28 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#introduce">Giới thiệu về tôi</a>
                       </li>
-        
+                                          <!-- Button trigger modal -->
+<button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  Đóng hệ thống(tạm thời)
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Thông báo</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" disabled></button>
+      </div>
+      <div class="modal-body">
+       Đã đóng hệ thống(bạn có thể mở lại bằng cách load lại trang)
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal" disabled>Đóng</button>
+      </div>
+    </div>
+  </div>
+</div>
                   </a>
         
                     </ul>
