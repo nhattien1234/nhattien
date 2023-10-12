@@ -61,7 +61,16 @@
         <div id="loader"></div>
 
         <div style="display:none;" id="myDiv" class="animate-bottom">
-                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div style="display:none;" id="myDiv" class="animate-bottom">
+          <div class="alert alert-danger d-flex align-items-center" role="alert">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-exclamation-triangle-fill" viewBox="0 0 16 16">
+              <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+            </svg>
+            <div>
+              Hệ thống đã bị đóng. Vui lòng liên hệ tới chủ sở hữu nếu bạn cho rằng đây là một sự nhầm lẫn
+            </div>
+          </div>
+                <!--nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid">
                   <a class="navbar-brand" href>
                       <a class="navbar-brand" href>
@@ -91,15 +100,14 @@
 
                     <li class="nav-item">
                         <a class="nav-link" href="#introduce">Giới thiệu về tôi</a>
-                      </li>
-                                          <!-- Button trigger modal -->
+                    </li>
 <button  type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-exclamation-triangle-fill" viewBox="0 0 16 16">
     <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
   </svg>Đóng hệ thống(tạm thời)
 </button>
 
-<!-- Modal -->
+
 <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
@@ -121,14 +129,14 @@
                     </ul>
                     <form class="d-flex" role="search">
                       <input class="form-control me-2" type="search" placeholder="Tìm kiếm" required aria-label="Search">
-                      <!-- Button trigger modal -->
+
 <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#Example">
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
   <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
 </svg>
 </button>
 
-<!-- Modal -->
+
 <div class="modal fade" id="Example" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
@@ -447,12 +455,12 @@
                         <div class="d-flex flex-column flex-sm-row w-100 gap-2">
                             <label for="newsletter1" class="visually-hidden" required >Địa chỉ email</label>
                             <input id="newsletter1" type="text" class="form-control" placeholder="Địa chỉ email">
-<!-- Button trigger modal -->
+
 <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#abc">
   Gửi
 </button>
 
-<!-- Modal -->
+
 <div class="modal fade" id="abc" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
@@ -471,7 +479,7 @@
 </div>
       </form>
     </div>
-        </div>
+            </div>
         
             <br>
             <br>
