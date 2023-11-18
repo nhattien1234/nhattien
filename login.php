@@ -27,7 +27,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
    $password = $_POST["password"];
 	
    if ($username === "admin" && $password === "admin") {	
-      header("Location: /applications.html");
+      header("Location: /index.html");
    } else{
         echo "<h2><span style='color:red'>Login Error</span></h2>";
    }
