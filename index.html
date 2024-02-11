@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-	    <style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.000">
+    <title>The Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <style>
       body {
           -webkit-touch-callout: none;
           -webkit-user-select: none;
@@ -69,11 +68,11 @@
         }
     };
 </script>
-
 </head>
 <body>
+
 	    <script src="app.js"></script>
-                <nav class="navbar navbar-expand-lg bg-body-tertiary" id="admin">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid">
                   <a class="navbar-brand" href>
                       <a class="navbar-brand" href>
@@ -100,29 +99,43 @@
 			<li class="nav-item">
                       <a class="nav-link" href="#larva">Phim Larva</a>
                     </li>
-
-			    <li class="nav-item">
-                      <a class="nav-link" href="#spookiz">Phim Spookiz</a>
-                    </li
         
-			    <li class="nav-item">
-                      <a class="nav-link" href="#zig-and-sharko">Phim Zig & Sharko</a>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#Contact Info">Thông tin liên hệ</a>
                     </li>
 
-		<li class="nav-item">
-                      <a class="nav-link" href="#Contact_Info">Thông tin liên hệ</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#introduce">Giới thiệu về tôi</a>
                     </li>
-
                   </a>
         
                     </ul>
                     <form class="d-flex" role="search">
-                      <input class="form-control me-2" type="search" placeholder="Tìm kiếm" aria-label="Search">
-			<button class="btn btn-outline-success">
-				<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                      <input class="form-control me-2" type="search" placeholder="Tìm kiếm" required aria-label="Search">
+
+<button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#Example">
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
   <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
 </svg>
-			</button>
+</button>
+
+
+<div class="modal fade" id="Example" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header" style="background-color: blue; color:white ;">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Thông báo</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Không tìm thấy kết quả
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal">Đóng</button>
+      </div>
+    </div>
+  </div>
+</div>
                     </form>
                   </div>
                 </div>
@@ -328,6 +341,13 @@
                 </div>
             </div>
         
+            <br>
+            <br>
+            <br>
+              <p>
+               <p>
+                <p>
+                  <p>
                     <div id="pokemon">
                       <h1>Phim hoạt hình Pokemon</h1>
                     </div>
@@ -513,6 +533,10 @@
  </div>
                 </div>
               </div>
+        
+              <p>
+                <p>
+                  <p>
                     <div id="peppa pig">
                       <h1>Phim Heo Peppa</h1>
                     </div>
@@ -865,364 +889,17 @@
     </div>
   </div>
 </div>
-		    <div id="spookiz">
-          <h1>
-            Xem phim Spookiz
-          </h1>
-        </div>
-  <div class="row">
-    <div class="card" style="width: 18rem;">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0psflr6b_r1M2FyqNdUVvH1Q6we7InL-vvw&usqp=CAU" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Xem phim Spookiz</h5>
-        <p class="card-text">Mời bạn xem phim Spookiz tập 1</p>
-
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#abc24">
-  Xem ngay
-</button>
-
-<div class="modal fade" id="abc24" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="staticBackdropLabel">Xem ngay</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <iframe width="480" height="270" src="https://www.youtube.com/embed/irFYmpVRgu8?si=kX-VSaKoLw_IbnTm" allowfullscreen></iframe>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Đóng</button>
-      </div>
-    </div>
-  </div>
-</div>
-      </div>
-    </div>
-    <div class="card" style="width: 18rem;">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMHY4mgKxjad2XsgjLrECBLn3MJtf3MzXSGg&usqp=CAU" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Xem phim Spookiz</h5>
-        <p class="card-text">Mời bạn xem phim Spookiz tập 2</p>
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#abc25">
-          Xem ngay
-        </button>
-        
-        <div class="modal fade" id="abc25" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h1 class="modal-title fs-5" id="staticBackdropLabel">Xem ngay</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                <iframe width="480" height="270" src="https://www.youtube.com/embed/LcHa061qDdw?si=HzmC0bv-2X7hjbG8" allowfullscreen></iframe>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Đóng</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="card" style="width: 18rem;">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnOc6tU_VV_q-aHoMfA4BXz1Lp5INZ4j3__w&usqp=CAU" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Xem phim Spookiz</h5>
-        <p class="card-text">Mời bạn xem phim Spookiz tập 3</p>
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#abc26">
-          Xem ngay
-        </button>
-        
-        <div class="modal fade" id="abc26" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h1 class="modal-title fs-5" id="staticBackdropLabel">Xem ngay</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                <iframe width="480" height="270" src="https://www.youtube.com/embed/7zVz_DTAz2U?si=GaZSfmEhP7s2yLoL" allowfullscreen></iframe>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Đóng</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="row">
-    <div class="card" style="width: 18rem;">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9XiLr_EWOWKRd6kh-ifq9I8TQ3fgXdaDzDA&usqp=CAU" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Xem phim Spookiz</h5>
-        <p class="card-text">Mời bạn xem phim Spookiz tập 4</p>
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#abc27">
-          Xem ngay
-        </button>
-        
-        <div class="modal fade" id="abc27" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h1 class="modal-title fs-5" id="staticBackdropLabel">Xem ngay</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                <iframe width="480" height="270" src="https://www.youtube.com/embed/2V0jjfTb0Xc?si=tL4qUeORSboxKZOP" allowfullscreen></iframe>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Đóng</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="card" style="width: 18rem;">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqMvVD3j9rCs6Q0xlyahkRNoTZRxU5KcLo-A&usqp=CAU" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Xem phim Spookiz</h5>
-        <p class="card-text">Mời bạn xem phim Spookiz tập 5</p>
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#abc28">
-          Xem ngay
-        </button>
-        
-        <div class="modal fade" id="abc28" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h1 class="modal-title fs-5" id="staticBackdropLabel">Xem ngay</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                <iframe width="480" height="270" src="https://www.youtube.com/embed/vlG9p8QeEdQ?si=DXySXSRJaAaxHP-6" allowfullscreen></iframe>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Đóng</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="card" style="width: 18rem;">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgitIDxl_t5Mh1blzPdeWYmsQS5PI40AZyDA&usqp=CAU" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Xem phim Spookiz</h5>
-        <p class="card-text">Mời bạn xem phim Spookiz tập 6</p>
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#abc29">
-          Xem ngay
-        </button>
-        
-        <div class="modal fade" id="abc29" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h1 class="modal-title fs-5" id="staticBackdropLabel">Xem ngay</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                <iframe width="480" height="270" src="https://www.youtube.com/embed/ifw3SJwbOS4?si=MSAINm3H3q538_Ng" allowfullscreen></iframe>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Đóng</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-		    <div id="zig-and-sharko">
-      <h1>
-        Xem phim Zig & Sharko
-      </h1>
-    </div>
-    <div class="row">
-      <div class="card" style="width: 18rem;">
-        <img src="https://channel.mediacdn.vn/428462621602512896/2022/9/10/image003-1662779580189643982941.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Xem phim Zig & Sharko</h5>
-          <p class="card-text">Mời bạn xem phim Zig & Sharko tập 1</p>
-
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#abc30">
-  Xem ngay
-</button>
-
-<div class="modal fade" id="abc30" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="staticBackdropLabel">Xem ngay</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <iframe width="480" height="270" src="https://www.youtube.com/embed/rONDeaEpr-I?si=vdKzxUQfeLgss-b7" allowfullscreen></iframe>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Đóng</button>
-      </div>
-    </div>
-  </div>
-</div>
-        </div>
-      </div>
-
-      <div class="card" style="width: 18rem;">
-        <img src="https://i.ytimg.com/vi/DjA-SnAfz8k/maxresdefault.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Xem phim Zig & Sharko</h5>
-          <p class="card-text">Mời bạn xem phim Zig & Sharko tập 2</p>
-          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#abc31">
-            Xem ngay
-          </button>
-          
-          <div class="modal fade" id="abc31" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h1 class="modal-title fs-5" id="staticBackdropLabel">Xem ngay</h1>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                  <iframe width="480" height="270" src="https://www.youtube.com/embed/vb97v0Sdmy8?si=uJuI-lP299nIpsy-" allowfullscreen></iframe>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Đóng</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="card" style="width: 18rem;">
-        <img src="https://i.ytimg.com/vi/pUGpR_K65x8/sddefault.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Xem phim Zig & Sharko</h5>
-          <p class="card-text">Mời bạn xem phim Zig & Sharko tập 3</p>
-          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#abc32">
-            Xem ngay
-          </button>
-          
-          <div class="modal fade" id="abc32" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h1 class="modal-title fs-5" id="staticBackdropLabel">Xem ngay</h1>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                  <iframe width="480" height="270" src="https://www.youtube.com/embed/DjA-SnAfz8k?si=uZLzFpArL1g8jlMr" allowfullscreen></iframe>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Đóng</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-    <div class="row">
-      <div class="card" style="width: 18rem;">
-        <img src="https://cdn.sonicgang.com/wp-content/uploads/2020/12/Picture1-compressed.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Xem phim Zig & Sharko</h5>
-          <p class="card-text">Mời bạn xem phim Zig & Sharko tập 4</p>
-          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#abc33">
-            Xem ngay
-          </button>
-          
-          <div class="modal fade" id="abc33" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h1 class="modal-title fs-5" id="staticBackdropLabel">Xem ngay</h1>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                  <iframe width="480" height="270" src="https://www.youtube.com/embed/186fsmF-kjY?si=OeCqjjGv3BV0duH5" allowfullscreen></iframe>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Đóng</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="card" style="width: 18rem;">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQub5lTVdntDfNJW0xQTqMirAepMre8fmeZYg&usqp=CAU" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Xem phim Zig & Sharko</h5>
-          <p class="card-text">Mời bạn xem phim Zig & Sharko tập 5</p>
-          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#abc34">
-            Xem ngay
-          </button>
-          
-          <div class="modal fade" id="abc34" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h1 class="modal-title fs-5" id="staticBackdropLabel">Xem ngay</h1>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                  <iframe width="480" height="270" src="https://www.youtube.com/embed/nMrAvxOYqmY?si=X5DW9QPkGy1bOvzN" allowfullscreen></iframe>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Đóng</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="card" style="width: 18rem;">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQsDJGv2Fy79mr792NGryc9xjBhaytZ49syA&usqp=CAU" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Xem phim Zig & Sharko</h5>
-          <p class="card-text">Mời bạn xem phim Zig & Sharko tập 6</p>
-          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#abc35">
-            Xem ngay
-          </button>
-          
-          <div class="modal fade" id="abc35" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h1 class="modal-title fs-5" id="staticBackdropLabel">Xem ngay</h1>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                  <iframe width="480" height="270" src="https://www.youtube.com/embed/1sc3qSr8MLs?si=fbiuJuFbYA2IS_mH" allowfullscreen></iframe>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Đóng</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
               
         
-            <div class="row" id="Contact_Info">
+            <div class="row" id="Contact Info">
                 <div class="col-6 col-md-2 mb-3">
                     <h5>Mục lục</h5>
                     <ul class="nav flex-column">
                         <li class="nav-item mb-2">
 				<a href="" class="nav-link p-0 text-body-secondary">Trang chủ</a></li>
+                        <li class="nav-item mb-2">
+				<a href="#introduce" class="nav-link p-0 text-body-secondary">Giới
+                                thiệu về tôi</a></li>
                         <li class="nav-item mb-2">
 				<a href="#comic" class="nav-link p-0 text-body-secondary">Phim hoạt hình Doraemon</a>
                         </li>
@@ -1234,12 +911,6 @@
                       </li>
 			<li class="nav-item mb-2">
 			<a href="#larva" class="nav-link p-0 text-body-secondary">Phim Larva</a>
-                      </li>
-			<li class="nav-item mb-2">
-			<a href="#spookiz" class="nav-link p-0 text-body-secondary">Phim Spookiz</a>
-                      </li>
-			<li class="nav-item mb-2">
-			<a href="#zig-and-sharko" class="nav-link p-0 text-body-secondary">Phim Zig & Sharko</a>
                       </li>
                     </ul>
                 </div>
@@ -1266,26 +937,27 @@
                 </div>
         
                 <div class="col-md-5 offset-md-1 mb-3">
-                     <form>
-    <h5>Để liên hệ mới tôi</h5>
-    <p>Hãy để lại email ở phím dưới và rất mong được nói chuyện với các bạn &lt;3</p>
-    <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-        <label for="newsletter1" class="visually-hidden">Địa chỉ email</label>
-        <input id="newsletter1" type="text" class="form-control" placeholder="Địa chỉ email"required>
+                    <form>
+                        <h5>Để liên hệ với tôi</h5>
+                        <p>Hãy để lại email ở phím dưới và rất mong được nói chuyện với các bạn &lt;3</p>
+                        <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                            <label for="newsletter1" class="visually-hidden" required >Địa chỉ email</label>
+                            <input id="newsletter1" type="text" class="form-control" placeholder="Địa chỉ email">
 
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#abc36">
+
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#abc24">
   Gửi
 </button>
 
-<div class="modal fade" id="abc36" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+<div class="modal fade" id="abc24" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="staticBackdropLabel">Thông báo</h1>
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Xem ngay</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        Hãy gửi tin nhắn của bạn cho chúng tôi qua email"nhattiento2704@gmail.com" do tính năng này chưa được phát triển
+        Hãy gửi cho chúng tôi qua email"nhattiento2704@gmail.com"
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Đóng</button>
@@ -1293,27 +965,6 @@
     </div>
   </div>
 </div>
-    </div>
-</form>
-	</div>
-		
-            <br>
-            <br>
-            <br>
-
-<div>
-  <center>
-    <span class="footer">
-      <h6>
-          &copy; 2023 Copyrighted by Nguyen Nhat Tien
-      </h6>
-    </span>
-  </center>
-</div>
-				
-</div-->
 
 </body>
-<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-<script src="js/app.js"></script>
 </html>
