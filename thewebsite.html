@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.000">
     <title>The Website</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<style>
       body {
@@ -72,90 +72,29 @@
 
 </head>
 <body>
-	    <!--style>
-        .body__preloader{
-            position:fixed;
-            z-index:9999999;
-            width:100%;
-            height:100%;
-            left:0;
-            top:0;
-            background-color:#ffffff;
-            -webkit-transition:all .3s ease;
-            -o-transition:all .3s ease;
-            transition:all .3s ease;
-            opacity:1;
-            visibility:visible}
-        .body__preloader.loaded{
-            opacity:0;
-            visibility:hidden;
-            z-index:-2}
-        #loading{
-            display:block;
-            position:relative;
-            z-index:1001;
-            left:50%;
-            top:50%;
-            width:150px;
-            height:150px;
-            margin:-75px 0 0 -75px;
-            border-radius:50%;
-            border:3px solid transparent;
-            border-top-color:#3498db;
-            -webkit-animation:spin 2s linear infinite;
-            animation:spin 2s linear infinite}
-        #loading:before{
-            content:"";
-            position:absolute;
-            top:5px;
-            left:5px;
-            right:5px;
-            bottom:5px;
-            border-radius:50%;
-            border:3px solid transparent;
-            border-top-color:#e74c3c;
-            -webkit-animation:spin 3s linear infinite;
-            animation:spin 3s linear infinite}
-        #loading:after{
-            content:"";
-            position:absolute;
-            top:15px;
-            left:15px;
-            right:15px;
-            bottom:15px;
-            border-radius:50%;
-            border:3px solid transparent;
-            border-top-color:#f9c922;
-            -webkit-animation:spin 1.5s linear infinite;
-            animation:spin 1.5s linear infinite}
-        @-webkit-keyframes spin{
-                0%{-webkit-transform:rotate(0deg);
-                    -ms-transform:rotate(0deg);
-                    transform:rotate(0deg)}100%
-                    {-webkit-transform:rotate(360deg);
-                        -ms-transform:rotate(360deg);
-                        transform:rotate(360deg)}}
-        @keyframes spin{
-            0%{-webkit-transform:rotate(0deg);
-                -ms-transform:rotate(0deg);
-                transform:rotate(0deg)}100%{
-                    -webkit-transform:rotate(360deg);
-                    -ms-transform:rotate(360deg);
-                    transform:rotate(360deg)}}
-        </style>
-        <div class='body__preloader'>
-           <div id="loading"></div>
-           <center>
-           <div style="margin-top: 330px;">
-            Hệ thống có một số lỗi cần phải khắc phục và dự kiến<br>sẽ được mở lại vào ngày 1/3/2024
-           </div>
-           </center>
-        </div>
-        <script>
-          $(window).bind("load", function() {
-            $('.body__preloader').addClass("loaded");
-          })
-        </script-->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Thông báo</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Đã xảy ra lỗi! Vui lòng thử lại sau!
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal" disabled>Đóng</button>
+      </div>
+    </div>
+  </div>
+</div>
+   
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+<script>
+  $(window).load(function(){        
+   $('#staticBackdrop').modal('show');
+    });
+</script>
 	    <script src="app.js"></script>
                 <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid">
