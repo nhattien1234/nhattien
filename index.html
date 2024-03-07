@@ -73,20 +73,20 @@
 </head>
 <body>
 	    <script src="app.js"></script>
-	<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+	<form>
+		<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
         <h1 class="modal-title fs-5" id="staticBackdropLabel" role="dialog">Thông báo</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" disabled></button>
       </div>
       <div class="modal-body">
-        Đã xảy ra lỗi! Vui lòng thử lại sau! Nếu tình trạng này vẫn diễn ra thì hãy<a href="tel:0988065911">liên hệ</a>cho quản trị viên trang web.
+        Đã xảy ra lỗi! Vui lòng thử lại sau! Nếu tình trạng này vẫn diễn ra thì hãy liên hệ cho quản trị viên trang web.
 	      <br>
 	      Xin trân trọng cảm ơn!
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-primary" data-bs-dismiss="modal" disabled>Đóng</button>
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Liên hệ ngay</button>
       </div>
     </div>
   </div>
@@ -97,6 +97,8 @@
    $('#staticBackdrop').modal('show');
     });
 </script>
+	</form>
+	
                 <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid">
                   <a class="navbar-brand" href>
