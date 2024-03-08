@@ -72,7 +72,39 @@
 
 </head>
 <body> 
-	
+	<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  Launch static backdrop modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Thông báo</h1>
+      </div>
+      <div class="modal-body">
+        Đã xảy ra lỗi! Vui lòng thử lại sau! Bạn có thể liên hệ với quản trị viên web hoặc báo cáo sự cố
+	<br>
+	Xin trân trọng cảm ơn
+      </div>
+      <div class="modal-footer">
+        <form action="https://bit.ly/baocaosuco">
+	<button type="button" class="btn btn-primary">Báo cáo sự cố</button>
+	</form>
+        <form action="tel:0988065911">
+	<button type="button" class="btn btn-primary">Liên hệ với quản trị viên web</button>
+	</form>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+    $(document).ready(function(){        
+   $('#staticBackdrop').modal('show');
+    }); 
+</script>
                 <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid">
                   <a class="navbar-brand" href>
